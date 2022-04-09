@@ -1,0 +1,90 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    color: #1D3153;
+}
+a{
+    text-decoration: none;
+}
+li{
+    list-style: none;
+}
+body{
+    width: 100%;
+    height: 100vh;
+    background-color: #F3F3F9;
+
+}
+.container{
+    width: 400px;
+    height: 400px;
+    background-color: #FFFFFF;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    border-radius: 20px;
+    padding: 50px;
+}
+img{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    margin-left: -8px;
+    margin-right: 10px;
+}
+.profil-photo{
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+    line-height: 18px;
+}
+.password-tittle{
+    margin-top: 15px;
+    font-size: 14px;
+}
+.password{
+    margin-top: 8px;
+}
+.password input{
+    width: 270px;
+    height: 30px;
+    border-radius: 5px;
+    box-shadow: none;
+    outline-style: none;
+    text-align: center;
+    border:1px solid black;
+    margin-right: 10px;
+}
+.inputs{
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+}
+.inputs .check {
+    display: flex;
+}
+.inputs .check input{
+    width: 20px;
+    height: 20px;
+}
+.inputs .check h3{
+    font-size: 15px;
+    margin-left: 15px;
+}
+.alone{
+    margin-right: 30px;
+    padding: 5px 10px;
+    background-color: #1D3153;
+    color: #fff;
+    border-radius: 10px;
+    border: none;
+    font-size: 15px;
+}
+.last{
+    margin-top: 30px;
+    font-size: 16px;
+    text-decoration: underline;
+    
